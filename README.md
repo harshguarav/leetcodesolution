@@ -17,4 +17,12 @@
 |  |
 | ------- |
 | [0300-longest-increasing-subsequence](https://github.com/harshguarav/leetcodesolution/tree/master/0300-longest-increasing-subsequence) |
+## Math
+|  |
+| ------- |
+| [0029-divide-two-integers](https://github.com/harshguarav/leetcodesolution/tree/master/0029-divide-two-integers) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0029-divide-two-integers](https://github.com/harshguarav/leetcodesolution/tree/master/0029-divide-two-integers) |
 <!---LeetCode Topics End-->
