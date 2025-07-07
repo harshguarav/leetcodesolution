@@ -1,25 +1,16 @@
-
 class Solution {
 public:
     int lengthOfLIS(vector<int>& nums) {
         int n = nums.size();
-        if(n == 0)
-        {
-            return 0;
-        }
-        vector<int> ans;
-        ans.push_back(nums[0]);
-        for(int i = 1; i < n; i++)
-        {
-            if(nums[i] > ans.back())
-            {
-                ans.push_back(nums[i]);
+        if (n == 0) return 0;
+
+        std::set<int> ans;
+        for (int i = 0; i < n; i++) {
+            auto it = ans.lower_bound(nums[i]);
+            if (it != ans.end()) {
+                ans.erase(it);  // Replace the first ≥ nums[i]
             }
-            else
-            {
-                int index = lower_bound(ans.begin(),ans.end(),nums[i]) - ans.begin();
-                ans[index] = nums[i];
-            }
+            ans.insert(nums[i]);  // Insert current element
         }
         return ans.size();
     }
