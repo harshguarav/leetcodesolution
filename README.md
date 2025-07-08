@@ -8,6 +8,7 @@
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/harshguarav/leetcodesolution/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/harshguarav/leetcodesolution/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0300-longest-increasing-subsequence](https://github.com/harshguarav/leetcodesolution/tree/master/0300-longest-increasing-subsequence) |
+| [0312-burst-balloons](https://github.com/harshguarav/leetcodesolution/tree/master/0312-burst-balloons) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -15,6 +16,7 @@
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/harshguarav/leetcodesolution/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/harshguarav/leetcodesolution/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0300-longest-increasing-subsequence](https://github.com/harshguarav/leetcodesolution/tree/master/0300-longest-increasing-subsequence) |
+| [0312-burst-balloons](https://github.com/harshguarav/leetcodesolution/tree/master/0312-burst-balloons) |
 ## Binary Search
 |  |
 | ------- |
