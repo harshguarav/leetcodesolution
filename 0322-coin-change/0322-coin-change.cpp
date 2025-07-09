@@ -1,30 +1,38 @@
 class Solution {
 public:
-    unordered_map<int, int> memo;
-
     int coinChange(vector<int>& coins, int amount) {
-        int ans = helper(coins, amount);
-        return (ans == INT_MAX) ? -1 : ans;
-    }
+        sort(coins.begin(), coins.end());  // Sort to safely use coins[m]
+        vector<int> dp(amount + 1, amount + 1); 
+        dp[0] = 0;
 
-    int helper(vector<int>& coins, int amount) {
-        if (amount == 0) return 0;
-        if (amount < 0) return INT_MAX;
+        // Fill initial unreachable values with -1
+        int idx = 1;
+        while (idx < coins[0] && idx <= amount) {
+            dp[idx] = -1;
+            idx++;
+        }
 
-        // Check if already computed
-        if (memo.count(amount)) return memo[amount];
+        int m = 0;
 
-        int minCoins = INT_MAX;
+        for (int i = idx; i <= amount; ++i) {
+            // If current i is exactly equal to coin[m], we need only 1 coin
+            if (m < coins.size() && i == coins[m]) {
+                dp[i] = 1;
+                m++;
+            } 
+            else {
+                dp[i] = -1; // assume not possible
 
-        for (int coin : coins) {
-            int res = helper(coins, amount - coin);
-            if (res != INT_MAX) {
-                minCoins = min(minCoins, res + 1);
+                for (int j = 0; j < coins.size(); j++) {
+                    int prev = i - coins[j];
+                    if (prev >= 0 && dp[prev] != -1) {
+                        if (dp[i] == -1) dp[i] = dp[prev] + 1;
+                        else dp[i] = min(dp[i], dp[prev] + 1);
+                    }
+                }
             }
         }
 
-        // Memoize the result
-        memo[amount] = minCoins;
-        return minCoins;
+        return dp[amount];
     }
 };
