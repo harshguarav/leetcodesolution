@@ -4,6 +4,7 @@
 ## Array
 |  |
 | ------- |
+| [0084-largest-rectangle-in-histogram](https://github.com/harshguarav/leetcodesolution/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/harshguarav/leetcodesolution/tree/master/0085-maximal-rectangle) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/harshguarav/leetcodesolution/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/harshguarav/leetcodesolution/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
@@ -37,6 +38,7 @@
 ## Stack
 |  |
 | ------- |
+| [0084-largest-rectangle-in-histogram](https://github.com/harshguarav/leetcodesolution/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/harshguarav/leetcodesolution/tree/master/0085-maximal-rectangle) |
 ## Matrix
 |  |
@@ -45,6 +47,7 @@
 ## Monotonic Stack
 |  |
 | ------- |
+| [0084-largest-rectangle-in-histogram](https://github.com/harshguarav/leetcodesolution/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/harshguarav/leetcodesolution/tree/master/0085-maximal-rectangle) |
 ## Sorting
 |  |
