@@ -1,46 +1,56 @@
 class Solution {
 public:
-    int largestRectangleArea(vector<int>& heights) {
-        stack<int> st;
-        int maxArea = 0;
-        int n = heights.size();
-
-        for (int i = 0; i <= n; i++) {
-            int currHeight = (i == n) ? 0 : heights[i];
-            while (!st.empty() && currHeight < heights[st.top()]) {
-                int h = heights[st.top()];
-                st.pop();
-                int width = st.empty() ? i : i - st.top() - 1;
-                maxArea = max(maxArea, h * width);
-            }
-            st.push(i);
-        }
-        return maxArea;
-    }
-
     int maximalRectangle(vector<vector<char>>& matrix) {
         int row = matrix.size();
         if (row == 0) return 0;
         int col = matrix[0].size();
         vector<vector<int>> dp(row, vector<int>(col, 0));
 
+        // Step 1: Build the dp matrix of histogram heights
         for (int i = 0; i < col; i++) {
             for (int j = 0; j < row; j++) {
                 if (matrix[j][i] == '0') {
                     dp[j][i] = 0;
                 } else {
-                    if (j == 0) {
-                        dp[j][i] = 1;
-                    } else {
-                        dp[j][i] = 1 + dp[j - 1][i];
-                    }
+                    dp[j][i] = (j == 0) ? 1 : dp[j - 1][i] + 1;
                 }
             }
         }
 
         int maxArea = 0;
+
+        // Step 2: For each row in dp, treat it as histogram
         for (int i = 0; i < row; i++) {
-            maxArea = max(maxArea, largestRectangleArea(dp[i]));
+            vector<int> histogram = dp[i];
+            vector<int> LTR(col), RTL(col);
+
+            // Left to right expansion
+            for (int j = 0; j < col; j++) {
+                int count = j + 1;
+                int sum = histogram[j];
+                while (count < col && histogram[count] >= histogram[j]) {
+                    sum += histogram[j];
+                    count++;
+                }
+                LTR[j] = sum;
+            }
+
+            // Right to left expansion
+            for (int j = col - 1; j >= 0; j--) {
+                int count = j - 1;
+                int sum = histogram[j];
+                while (count >= 0 && histogram[count] >= histogram[j]) {
+                    sum += histogram[j];
+                    count--;
+                }
+                RTL[j] = sum;
+            }
+
+            // Combine both sides and find max area in this histogram
+            for (int j = 0; j < col; j++) {
+                int area = LTR[j] + RTL[j] - histogram[j];
+                maxArea = max(maxArea, area);
+            }
         }
 
         return maxArea;
