@@ -9,6 +9,7 @@
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/harshguarav/leetcodesolution/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0300-longest-increasing-subsequence](https://github.com/harshguarav/leetcodesolution/tree/master/0300-longest-increasing-subsequence) |
 | [0312-burst-balloons](https://github.com/harshguarav/leetcodesolution/tree/master/0312-burst-balloons) |
+| [0368-largest-divisible-subset](https://github.com/harshguarav/leetcodesolution/tree/master/0368-largest-divisible-subset) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -17,6 +18,7 @@
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/harshguarav/leetcodesolution/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0300-longest-increasing-subsequence](https://github.com/harshguarav/leetcodesolution/tree/master/0300-longest-increasing-subsequence) |
 | [0312-burst-balloons](https://github.com/harshguarav/leetcodesolution/tree/master/0312-burst-balloons) |
+| [0368-largest-divisible-subset](https://github.com/harshguarav/leetcodesolution/tree/master/0368-largest-divisible-subset) |
 ## Binary Search
 |  |
 | ------- |
@@ -25,6 +27,7 @@
 |  |
 | ------- |
 | [0029-divide-two-integers](https://github.com/harshguarav/leetcodesolution/tree/master/0029-divide-two-integers) |
+| [0368-largest-divisible-subset](https://github.com/harshguarav/leetcodesolution/tree/master/0368-largest-divisible-subset) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -41,4 +44,8 @@
 |  |
 | ------- |
 | [0085-maximal-rectangle](https://github.com/harshguarav/leetcodesolution/tree/master/0085-maximal-rectangle) |
+## Sorting
+|  |
+| ------- |
+| [0368-largest-divisible-subset](https://github.com/harshguarav/leetcodesolution/tree/master/0368-largest-divisible-subset) |
 <!---LeetCode Topics End-->
