@@ -5,14 +5,14 @@ public:
         if (n == 0 || k == 0) return 0;
 
         // If k is large enough, just do as many transactions as possible (greedy)
-        if (k >= n / 2) {
-            int profit = 0;
-            for (int i = 1; i < n; i++) {
-                if (prices[i] > prices[i - 1])
-                    profit += prices[i] - prices[i - 1];
-            }
-            return profit;
-        }
+        // if (k >= n / 2) {
+        //     int profit = 0;
+        //     for (int i = 1; i < n; i++) {
+        //         if (prices[i] > prices[i - 1])
+        //             profit += prices[i] - prices[i - 1];
+        //     }
+        //     return profit;
+        // }
 
         // DP approach
         vector<vector<int>> dp(k + 1, vector<int>(n, 0));
