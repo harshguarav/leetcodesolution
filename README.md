@@ -14,6 +14,7 @@
 | [0312-burst-balloons](https://github.com/harshguarav/leetcodesolution/tree/master/0312-burst-balloons) |
 | [0322-coin-change](https://github.com/harshguarav/leetcodesolution/tree/master/0322-coin-change) |
 | [0368-largest-divisible-subset](https://github.com/harshguarav/leetcodesolution/tree/master/0368-largest-divisible-subset) |
+| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/harshguarav/leetcodesolution/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/harshguarav/leetcodesolution/tree/master/1402-count-square-submatrices-with-all-ones) |
 ## Dynamic Programming
 |  |
@@ -27,6 +28,7 @@
 | [0312-burst-balloons](https://github.com/harshguarav/leetcodesolution/tree/master/0312-burst-balloons) |
 | [0322-coin-change](https://github.com/harshguarav/leetcodesolution/tree/master/0322-coin-change) |
 | [0368-largest-divisible-subset](https://github.com/harshguarav/leetcodesolution/tree/master/0368-largest-divisible-subset) |
+| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/harshguarav/leetcodesolution/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/harshguarav/leetcodesolution/tree/master/1402-count-square-submatrices-with-all-ones) |
 ## Binary Search
 |  |
@@ -68,4 +70,5 @@
 |  |
 | ------- |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/harshguarav/leetcodesolution/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/harshguarav/leetcodesolution/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 <!---LeetCode Topics End-->
