@@ -1,30 +1,29 @@
 class Solution {
 public:
+    int fun(int idx, int buy, int k, vector<int>& prices, vector<vector<vector<int>>>& dp) {
+        if (idx == prices.size() || k == 0) return 0;
+
+        if (dp[idx][buy][k] != -1) return dp[idx][buy][k];
+
+        if (buy) {
+            // Option 1: Buy the stock
+            // Option 2: Skip buying
+            return dp[idx][buy][k] = max(
+                -prices[idx] + fun(idx + 1, 0, k, prices, dp), // buy
+                 fun(idx + 1, 1, k, prices, dp));              // skip
+        } else {
+            // Option 1: Sell the stock → reduce transaction count
+            // Option 2: Skip selling
+            return dp[idx][buy][k] = max(
+                prices[idx] + fun(idx + 1, 1, k - 1, prices, dp), // sell
+                fun(idx + 1, 0, k, prices, dp));                  // skip
+        }
+    }
+
     int maxProfit(int k, vector<int>& prices) {
         int n = prices.size();
-        if (n == 0 || k == 0) return 0;
-
-        // If k is large enough, just do as many transactions as possible (greedy)
-        // if (k >= n / 2) {
-        //     int profit = 0;
-        //     for (int i = 1; i < n; i++) {
-        //         if (prices[i] > prices[i - 1])
-        //             profit += prices[i] - prices[i - 1];
-        //     }
-        //     return profit;
-        // }
-
-        // DP approach
-        vector<vector<int>> dp(k + 1, vector<int>(n, 0));
-
-        for (int t = 1; t <= k; t++) {
-            int maxDiff = -prices[0];
-            for (int i = 1; i < n; i++) {
-                dp[t][i] = max(dp[t][i - 1], prices[i] + maxDiff);
-                maxDiff = max(maxDiff, dp[t - 1][i] - prices[i]);
-            }
-        }
-
-        return dp[k][n - 1];
+        // Dimensions: day × buy/sell × transactions left
+        vector<vector<vector<int>>> dp(n, vector<vector<int>>(2, vector<int>(k + 1, -1)));
+        return fun(0, 1, k, prices, dp);
     }
 };
