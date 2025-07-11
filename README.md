@@ -37,6 +37,7 @@
 ## Math
 |  |
 | ------- |
+| [0012-integer-to-roman](https://github.com/harshguarav/leetcodesolution/tree/master/0012-integer-to-roman) |
 | [0029-divide-two-integers](https://github.com/harshguarav/leetcodesolution/tree/master/0029-divide-two-integers) |
 | [0368-largest-divisible-subset](https://github.com/harshguarav/leetcodesolution/tree/master/0368-largest-divisible-subset) |
 ## Bit Manipulation
@@ -71,4 +72,12 @@
 | ------- |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/harshguarav/leetcodesolution/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/harshguarav/leetcodesolution/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
+## Hash Table
+|  |
+| ------- |
+| [0012-integer-to-roman](https://github.com/harshguarav/leetcodesolution/tree/master/0012-integer-to-roman) |
+## String
+|  |
+| ------- |
+| [0012-integer-to-roman](https://github.com/harshguarav/leetcodesolution/tree/master/0012-integer-to-roman) |
 <!---LeetCode Topics End-->
