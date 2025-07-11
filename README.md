@@ -67,6 +67,7 @@
 |  |
 | ------- |
 | [0322-coin-change](https://github.com/harshguarav/leetcodesolution/tree/master/0322-coin-change) |
+| [0662-maximum-width-of-binary-tree](https://github.com/harshguarav/leetcodesolution/tree/master/0662-maximum-width-of-binary-tree) |
 ## Greedy
 |  |
 | ------- |
@@ -80,4 +81,16 @@
 |  |
 | ------- |
 | [0012-integer-to-roman](https://github.com/harshguarav/leetcodesolution/tree/master/0012-integer-to-roman) |
+## Tree
+|  |
+| ------- |
+| [0662-maximum-width-of-binary-tree](https://github.com/harshguarav/leetcodesolution/tree/master/0662-maximum-width-of-binary-tree) |
+## Depth-First Search
+|  |
+| ------- |
+| [0662-maximum-width-of-binary-tree](https://github.com/harshguarav/leetcodesolution/tree/master/0662-maximum-width-of-binary-tree) |
+## Binary Tree
+|  |
+| ------- |
+| [0662-maximum-width-of-binary-tree](https://github.com/harshguarav/leetcodesolution/tree/master/0662-maximum-width-of-binary-tree) |
 <!---LeetCode Topics End-->
