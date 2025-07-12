@@ -5,6 +5,7 @@
 |  |
 | ------- |
 | [0046-permutations](https://github.com/harshguarav/leetcodesolution/tree/master/0046-permutations) |
+| [0047-permutations-ii](https://github.com/harshguarav/leetcodesolution/tree/master/0047-permutations-ii) |
 | [0084-largest-rectangle-in-histogram](https://github.com/harshguarav/leetcodesolution/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/harshguarav/leetcodesolution/tree/master/0085-maximal-rectangle) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/harshguarav/leetcodesolution/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
@@ -63,6 +64,7 @@
 ## Sorting
 |  |
 | ------- |
+| [0047-permutations-ii](https://github.com/harshguarav/leetcodesolution/tree/master/0047-permutations-ii) |
 | [0368-largest-divisible-subset](https://github.com/harshguarav/leetcodesolution/tree/master/0368-largest-divisible-subset) |
 ## Breadth-First Search
 |  |
@@ -98,4 +100,5 @@
 |  |
 | ------- |
 | [0046-permutations](https://github.com/harshguarav/leetcodesolution/tree/master/0046-permutations) |
+| [0047-permutations-ii](https://github.com/harshguarav/leetcodesolution/tree/master/0047-permutations-ii) |
 <!---LeetCode Topics End-->
