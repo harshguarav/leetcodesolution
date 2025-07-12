@@ -4,6 +4,7 @@
 ## Array
 |  |
 | ------- |
+| [0046-permutations](https://github.com/harshguarav/leetcodesolution/tree/master/0046-permutations) |
 | [0084-largest-rectangle-in-histogram](https://github.com/harshguarav/leetcodesolution/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/harshguarav/leetcodesolution/tree/master/0085-maximal-rectangle) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/harshguarav/leetcodesolution/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
@@ -93,4 +94,8 @@
 |  |
 | ------- |
 | [0662-maximum-width-of-binary-tree](https://github.com/harshguarav/leetcodesolution/tree/master/0662-maximum-width-of-binary-tree) |
+## Backtracking
+|  |
+| ------- |
+| [0046-permutations](https://github.com/harshguarav/leetcodesolution/tree/master/0046-permutations) |
 <!---LeetCode Topics End-->
