@@ -6,6 +6,7 @@
 | ------- |
 | [0046-permutations](https://github.com/harshguarav/leetcodesolution/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/harshguarav/leetcodesolution/tree/master/0047-permutations-ii) |
+| [0055-jump-game](https://github.com/harshguarav/leetcodesolution/tree/master/0055-jump-game) |
 | [0084-largest-rectangle-in-histogram](https://github.com/harshguarav/leetcodesolution/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/harshguarav/leetcodesolution/tree/master/0085-maximal-rectangle) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/harshguarav/leetcodesolution/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
@@ -21,6 +22,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0055-jump-game](https://github.com/harshguarav/leetcodesolution/tree/master/0055-jump-game) |
 | [0085-maximal-rectangle](https://github.com/harshguarav/leetcodesolution/tree/master/0085-maximal-rectangle) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/harshguarav/leetcodesolution/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/harshguarav/leetcodesolution/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
@@ -74,6 +76,7 @@
 ## Greedy
 |  |
 | ------- |
+| [0055-jump-game](https://github.com/harshguarav/leetcodesolution/tree/master/0055-jump-game) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/harshguarav/leetcodesolution/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/harshguarav/leetcodesolution/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 ## Hash Table
