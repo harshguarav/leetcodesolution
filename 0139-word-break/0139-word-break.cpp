@@ -8,7 +8,7 @@ public:
                 string str=s.substr(j,i-j);
                 if(find(wordDict.begin(),wordDict.end(),str)!=wordDict.end() && result[j]){
                     result[i]=true;
-                    break;
+                    // break;
                 }
             }
         }
