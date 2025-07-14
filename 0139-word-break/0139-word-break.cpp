@@ -1,20 +1,19 @@
 class Solution {
 public:
     bool wordBreak(string s, vector<string>& wordDict) {
-        unordered_set<string> dict(wordDict.begin(), wordDict.end());
-        int n = s.length();
-        vector<bool> dp(n + 1, false);
-        dp[0] = true;  // Empty string is always valid
+        vector<bool> result(s.length() + 1, false);
+        result[0] = true;
 
-        for (int i = 1; i <= n; i++) {
+        for (int i = 1; i <= s.length(); i++) {
             for (int j = 0; j < i; j++) {
-                if (dp[j] && dict.count(s.substr(j, i - j))) {
-                    dp[i] = true;
-                    break;
+                string str = s.substr(j, i - j);
+                if (result[j] && find(wordDict.begin(), wordDict.end(), str) != wordDict.end()) {
+                    result[i] = true;
+                    break;  // ✅ stop early if one match found
                 }
             }
         }
 
-        return dp[n];  // Can we build full string?
+        return result[s.length()];
     }
 };
