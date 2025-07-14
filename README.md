@@ -12,6 +12,7 @@
 | [0085-maximal-rectangle](https://github.com/harshguarav/leetcodesolution/tree/master/0085-maximal-rectangle) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/harshguarav/leetcodesolution/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/harshguarav/leetcodesolution/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
+| [0139-word-break](https://github.com/harshguarav/leetcodesolution/tree/master/0139-word-break) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/harshguarav/leetcodesolution/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0300-longest-increasing-subsequence](https://github.com/harshguarav/leetcodesolution/tree/master/0300-longest-increasing-subsequence) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/harshguarav/leetcodesolution/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
@@ -27,6 +28,7 @@
 | [0085-maximal-rectangle](https://github.com/harshguarav/leetcodesolution/tree/master/0085-maximal-rectangle) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/harshguarav/leetcodesolution/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/harshguarav/leetcodesolution/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
+| [0139-word-break](https://github.com/harshguarav/leetcodesolution/tree/master/0139-word-break) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/harshguarav/leetcodesolution/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0300-longest-increasing-subsequence](https://github.com/harshguarav/leetcodesolution/tree/master/0300-longest-increasing-subsequence) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/harshguarav/leetcodesolution/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
@@ -84,10 +86,12 @@
 |  |
 | ------- |
 | [0012-integer-to-roman](https://github.com/harshguarav/leetcodesolution/tree/master/0012-integer-to-roman) |
+| [0139-word-break](https://github.com/harshguarav/leetcodesolution/tree/master/0139-word-break) |
 ## String
 |  |
 | ------- |
 | [0012-integer-to-roman](https://github.com/harshguarav/leetcodesolution/tree/master/0012-integer-to-roman) |
+| [0139-word-break](https://github.com/harshguarav/leetcodesolution/tree/master/0139-word-break) |
 ## Tree
 |  |
 | ------- |
@@ -106,4 +110,12 @@
 | [0046-permutations](https://github.com/harshguarav/leetcodesolution/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/harshguarav/leetcodesolution/tree/master/0047-permutations-ii) |
 | [0051-n-queens](https://github.com/harshguarav/leetcodesolution/tree/master/0051-n-queens) |
+## Trie
+|  |
+| ------- |
+| [0139-word-break](https://github.com/harshguarav/leetcodesolution/tree/master/0139-word-break) |
+## Memoization
+|  |
+| ------- |
+| [0139-word-break](https://github.com/harshguarav/leetcodesolution/tree/master/0139-word-break) |
 <!---LeetCode Topics End-->
