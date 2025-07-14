@@ -8,6 +8,7 @@
 | [0047-permutations-ii](https://github.com/harshguarav/leetcodesolution/tree/master/0047-permutations-ii) |
 | [0051-n-queens](https://github.com/harshguarav/leetcodesolution/tree/master/0051-n-queens) |
 | [0055-jump-game](https://github.com/harshguarav/leetcodesolution/tree/master/0055-jump-game) |
+| [0079-word-search](https://github.com/harshguarav/leetcodesolution/tree/master/0079-word-search) |
 | [0084-largest-rectangle-in-histogram](https://github.com/harshguarav/leetcodesolution/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/harshguarav/leetcodesolution/tree/master/0085-maximal-rectangle) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/harshguarav/leetcodesolution/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
@@ -59,6 +60,7 @@
 ## Matrix
 |  |
 | ------- |
+| [0079-word-search](https://github.com/harshguarav/leetcodesolution/tree/master/0079-word-search) |
 | [0085-maximal-rectangle](https://github.com/harshguarav/leetcodesolution/tree/master/0085-maximal-rectangle) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/harshguarav/leetcodesolution/tree/master/1402-count-square-submatrices-with-all-ones) |
 ## Monotonic Stack
@@ -91,6 +93,7 @@
 |  |
 | ------- |
 | [0012-integer-to-roman](https://github.com/harshguarav/leetcodesolution/tree/master/0012-integer-to-roman) |
+| [0079-word-search](https://github.com/harshguarav/leetcodesolution/tree/master/0079-word-search) |
 | [0139-word-break](https://github.com/harshguarav/leetcodesolution/tree/master/0139-word-break) |
 ## Tree
 |  |
@@ -99,6 +102,7 @@
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/harshguarav/leetcodesolution/tree/master/0079-word-search) |
 | [0662-maximum-width-of-binary-tree](https://github.com/harshguarav/leetcodesolution/tree/master/0662-maximum-width-of-binary-tree) |
 ## Binary Tree
 |  |
@@ -110,6 +114,7 @@
 | [0046-permutations](https://github.com/harshguarav/leetcodesolution/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/harshguarav/leetcodesolution/tree/master/0047-permutations-ii) |
 | [0051-n-queens](https://github.com/harshguarav/leetcodesolution/tree/master/0051-n-queens) |
+| [0079-word-search](https://github.com/harshguarav/leetcodesolution/tree/master/0079-word-search) |
 ## Trie
 |  |
 | ------- |
