@@ -24,6 +24,7 @@
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/harshguarav/leetcodesolution/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [1127-last-stone-weight](https://github.com/harshguarav/leetcodesolution/tree/master/1127-last-stone-weight) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/harshguarav/leetcodesolution/tree/master/1402-count-square-submatrices-with-all-ones) |
+| [2267-minimum-difference-in-sums-after-removal-of-elements](https://github.com/harshguarav/leetcodesolution/tree/master/2267-minimum-difference-in-sums-after-removal-of-elements) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -40,6 +41,7 @@
 | [0368-largest-divisible-subset](https://github.com/harshguarav/leetcodesolution/tree/master/0368-largest-divisible-subset) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/harshguarav/leetcodesolution/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/harshguarav/leetcodesolution/tree/master/1402-count-square-submatrices-with-all-ones) |
+| [2267-minimum-difference-in-sums-after-removal-of-elements](https://github.com/harshguarav/leetcodesolution/tree/master/2267-minimum-difference-in-sums-after-removal-of-elements) |
 ## Binary Search
 |  |
 | ------- |
@@ -148,6 +150,7 @@
 | [0023-merge-k-sorted-lists](https://github.com/harshguarav/leetcodesolution/tree/master/0023-merge-k-sorted-lists) |
 | [0215-kth-largest-element-in-an-array](https://github.com/harshguarav/leetcodesolution/tree/master/0215-kth-largest-element-in-an-array) |
 | [1127-last-stone-weight](https://github.com/harshguarav/leetcodesolution/tree/master/1127-last-stone-weight) |
+| [2267-minimum-difference-in-sums-after-removal-of-elements](https://github.com/harshguarav/leetcodesolution/tree/master/2267-minimum-difference-in-sums-after-removal-of-elements) |
 ## Quickselect
 |  |
 | ------- |
