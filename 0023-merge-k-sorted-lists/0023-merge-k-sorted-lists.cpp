@@ -21,7 +21,7 @@ public:
         }
         ListNode* dummy=new ListNode(0);
         ListNode* tail=dummy;
-        while(!heap.empty()){
+        while(heap.size()>0){
             tail->next=new ListNode(heap.top());
             heap.pop();
             tail=tail->next;
