@@ -4,10 +4,10 @@ public:
         int sum=INT_MIN;
         int curr=0;
         for(int i=0;i<nums.size();i++){
-            curr+=nums[i];
+            curr=max(nums[i],curr+nums[i]);
             sum=max(sum,curr);
 
-            if(curr<0) curr=0;
+            
         }
         return sum;
         
